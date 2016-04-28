@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ftcomm/ftcomm.iml" filepath="$PROJECT_DIR$/ftcomm/ftcomm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ftfoundation/ftfoundation.iml" filepath="$PROJECT_DIR$/ftfoundation/ftfoundation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fthttp/fthttp.iml" filepath="$PROJECT_DIR$/fthttp/fthttp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ftscan/ftscan.iml" filepath="$PROJECT_DIR$/ftscan/ftscan.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mdapp/mdapp.iml" filepath="$PROJECT_DIR$/mdapp/mdapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sdk.iml" filepath="$PROJECT_DIR$/sdk.iml" />
+    </modules>
+  </component>
+</project>

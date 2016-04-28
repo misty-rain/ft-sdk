@@ -1,0 +1,40 @@
+<html>
+<head>
+    <script type="text/javascript">
+	function javaCallJS(arg) {
+		document.getElementById("hello").innerHTML += ("<br/>" + arg);
+	}
+
+	function jsCallJavaByInterface(arg) {
+	    Android.openScanByJs();
+	}
+
+	function jsCallJavaByIframe(arg) {
+		//创建iframe
+		var iframe = document.createElement('iframe');
+		iframe.id = "hello-iframe"
+		iframe.style.display = 'none';
+		iframe.src = "bridge://uncle.nought.com?arg=" + arg; // 把iframe的src设为要传递给Java的参数
+		document.body.appendChild(iframe);
+	}
+
+
+
+
+
+
+
+
+    </script>
+</head>
+<body>
+<input id="hello" type="button" value="Click me" onclick="javaCallJS()"/>
+<input id="txt" type="text" value="txt"/>
+
+<input type="button" value="jscalljavabyinterface"
+       onclick="jsCallJavaByInterface('jscalljava')"/>
+<input type="button" value="jsCallJavaByIframe"
+       onclick="jsCallJavaByInterface('JS called Java by iframe.')"/>
+
+</body>
+</html>
